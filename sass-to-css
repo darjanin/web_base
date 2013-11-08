@@ -37,7 +37,6 @@ echo `blue_text "scss path $pathToScss"`
 echo `blue_text " css path $pathToCss"`
 # if there was changes in the settings than it will update the css file
 sass -E "utf-8" -l --force --style "$style" --update "$pathToScss:$pathToCss"
-# start watch for changes
 sass -E "utf-8" -l --style "$style" --watch "$pathToScss:$pathToCss" --trace
 
 ################################################################################
