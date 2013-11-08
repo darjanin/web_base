@@ -1,0 +1,11 @@
+/* line 6, ../scss/main.scss */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* line 8, ../scss/main.scss */
+p {
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #333;
+}
