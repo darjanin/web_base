@@ -1,4 +1,8 @@
 // Base style file. Here should be just imported another partials
 // Only the basic settings for html, body allowed in this file.
 
-@import 'bourbon/bourbon;'
+@import 'bourbon/bourbon';
+
+body { font-family: $helvetica; }
+
+p { font-size: 1em; line-height: 1.5em; color: #333; }
