@@ -2,7 +2,15 @@
 // Only the basic settings for html, body allowed in this file.
 
 @import 'bourbon/bourbon';
+@import 'functions';
 
 body { font-family: $helvetica; }
 
 p { font-size: 1em; line-height: 1.5em; color: #333; }
+code { padding: .5em; background-color: Silver; color: black; }
+ul { list-style: none; }
+li { border-bottom: thin solid Silver; }
+
+.function { color: green; }
+
+.logo { background-image: image-url('logo.png'); }
